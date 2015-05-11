@@ -15,11 +15,11 @@ To use this example, save the `demo_fax.vbs` file and edit the following variabl
 
 | Variable | Description |
 |----------|-------------|
-| baseUrl  | Set to either constant baseUrlProduction or baseUrlSandbox. |
-| accessToken | Valid access_token retrieved via another means. |
-| toPhoneNumber | Recipient phone number in E.164 format, e.g. +16505551212 |
-| coverPageText | Cover page text. This is a very simple demo so ensure your strings are properly escaped, e.g. double quotes ". |
-| filename | Path to PDF file accessible on file system. |
+| `baseUrl`  | Set to either constant baseUrlProduction or baseUrlSandbox. |
+| `accessToken` | Valid access_token retrieved via another means. |
+| `toPhoneNumber` | Recipient phone number in E.164 format, e.g. +16505551212 |
+| `coverPageText` | Cover page text. This is a very simple demo so ensure your strings are properly escaped, e.g. double quotes ". |
+| `filename` | Path to PDF file accessible on file system. |
 
 Note: for this demo, you will need to provide a valid `access_token` received from the `oauth/token` end point.
 
