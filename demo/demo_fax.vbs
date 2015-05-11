@@ -62,7 +62,7 @@ Const baseUrlSandbox    = "https://platform.devtest.ringcentral.com"
 baseUrl       = baseUrlSandbox
 accessToken   = "myAccessToken"
 toPhoneNumber = "+16505551212"
-coverPageText = "From VBScript"
+coverPageText = "RingCentral fax via VBScript"
 filename      = "test.pdf"
 
 Dim res
