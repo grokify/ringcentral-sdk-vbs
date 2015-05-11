@@ -25,6 +25,6 @@ coverPageText = "From VBScript"
 filename      = "test.pdf"
 
 Dim res
-res = ringcentralFaxFile(baseUrl,accessToken,toPhoneNumber,coverPageText,filename)
+res = ringcentralFaxFile(baseUrl, accessToken, toPhoneNumber, coverPageText, filename)
 WScript.Echo res
 ```

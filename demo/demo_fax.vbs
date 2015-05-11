@@ -1,6 +1,6 @@
 ' This demo provides VBScript code to fax a PDF file using the RingCentral fax API
 
-Function ringcentralFaxFile(baseUrl,accessToken,toPhoneNumber,coverPageText,filename)
+Function ringcentralFaxFile(baseUrl, accessToken, toPhoneNumber, coverPageText, filename)
   url  = baseUrl & "/restapi/v1.0/account/~/extension/~/fax"
 
   json = "{""to"":[{""phoneNumber"":""" & toPhoneNumber & """}]," _
@@ -66,6 +66,6 @@ coverPageText = "From VBScript"
 filename      = "test.pdf"
 
 Dim res
-res = ringcentralFaxFile(baseUrl,accessToken,toPhoneNumber,coverPageText,filename)
+res = ringcentralFaxFile(baseUrl, accessToken, toPhoneNumber, coverPageText, filename)
 WScript.Echo res
 WScript.Echo "DONE"
