@@ -9,6 +9,8 @@ This is a no-dependency VBScript example that sends a PDF file stored on the fil
 
 After downloading the `demo_fax.vbs` file, edit the credentials and run the file using `cscript.exe`. This example requires you to request an `access_token` via another means, e.g. the API Explorer at http://ringcentral.github.io/api-explorer/. Once you have the `access_token`, you can save this file, edit the 4 variables and run it as shown below.
 
+This code has been verified to work on Windows 8.1 Enterprise Edition.
+
 # Usage
 
 To use this example, save the `demo_fax.vbs` file and edit the following variables as appropriate.
@@ -22,8 +24,6 @@ To use this example, save the `demo_fax.vbs` file and edit the following variabl
 | `filename` | Path to PDF file accessible on file system. |
 
 Note: for this demo, you will need to provide a valid `access_token` received from the `oauth/token` end point.
-
-This code has been verified to work on Windows 8.1 Enterprise Edition.
 
 The following is the portion of `demo_fax.vbs` that should be edited.
 
